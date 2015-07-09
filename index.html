@@ -5,6 +5,11 @@
 <meta charset="UTF-8">
 <title>Video Background Demo</title>
 <link rel="stylesheet" href="css/video.css"/>
+<!--[if lt IE 9]>
+<script>
+document.createElement('video');
+</script>
+<![endif]-->
 </head>
 <body>
 <video id="bgvideo" autoplay loop poster="aurora.jpg">
@@ -12,10 +17,5 @@
 <source src="aurora.webm" type="video/webm" />
 <source src="aurora.mp4" type="video/mp4"/>
 </video>
-<!--[if lt IE 9]>
-<script>
-document.createElement('video');
-</script>
-<![endif]-->
 </body>
 </html>
